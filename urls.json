@@ -1,0 +1,27 @@
+{
+    "Mig Team": {
+        "notStarted": ["example.com/mig/page1", "example.com/mig/page2",  "example.com/mig/page1000"],
+        "inProgress": [],
+        "migrated": []
+    },
+    "Ban Team": {
+        "notStarted": ["example.com/ban/page1", "example.com/ban/page2",  "example.com/ban/page1000"],
+        "inProgress": [],
+        "migrated": []
+    },
+    "Bor Team": {
+        "notStarted": ["example.com/bor/page1", "example.com/bor/page2",  "example.com/bor/page1000"],
+        "inProgress": [],
+        "migrated": []
+    },
+    "Inv Team": {
+        "notStarted": ["example.com/inv/page1", "example.com/inv/page2",  "example.com/inv/page1000"],
+        "inProgress": [],
+        "migrated": []
+    },
+    "BB Team": {
+        "notStarted": ["example.com/bb/page1", "example.com/bb/page2",  "example.com/bb/page1000"],
+        "inProgress": [],
+        "migrated": []
+    }
+}
