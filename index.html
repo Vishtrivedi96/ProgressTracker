@@ -256,7 +256,7 @@
 
         function getCombinedData() {
             const combined = {};
-            Object.entries(data).forEach(([team, sections]) => {
+            Object.entries(data).forEach(([_, sections]) => {
                 Object.entries(sections).forEach(([section, buckets]) => {
                     if (!combined[section]) {
                         combined[section] = { notStarted: [], inProgress: [], migrated: [] };
@@ -296,6 +296,9 @@
                 const div = document.getElementById(bucket.id);
                 div.innerHTML = '';
                 Object.entries(displayData).forEach(([section, sectionData], index) => {
+                    // Only render sections that exist in the current team's data when not "All Teams"
+                    if (currentSet !== "All Teams" && !data[currentSet].hasOwnProperty(section)) return;
+
                     const urls = sectionData[bucket.id] || [];
                     console.log(`Bucket: ${bucket.id}, Section: ${section}, URLs:`, urls);
                     if (urls.length > 0) {
