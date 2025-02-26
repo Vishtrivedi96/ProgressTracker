@@ -1,27 +1,162 @@
 {
     "Mig Team": {
-        "notStarted": ["example.com/mig/page1", "example.com/mig/page2",  "example.com/mig/page1000"],
-        "inProgress": [],
-        "migrated": []
+        "Personal Banking": {
+            "notStarted": ["bank.com/personal/checking1", "bank.com/personal/checking2", "bank.com/personal/savings1", "bank.com/personal/savings2"],
+            "inProgress": ["bank.com/personal/checking3", "bank.com/personal/savings3", "bank.com/personal/cards1"],
+            "migrated": ["bank.com/personal/checking4", "bank.com/personal/savings4", "bank.com/personal/cards2"]
+        },
+        "Business Banking": {
+            "notStarted": ["bank.com/business/accounts1", "bank.com/business/accounts2", "bank.com/business/credit1", "bank.com/business/credit2"],
+            "inProgress": ["bank.com/business/accounts3", "bank.com/business/credit3", "bank.com/business/loans1"],
+            "migrated": ["bank.com/business/accounts4", "bank.com/business/credit4", "bank.com/business/loans2"]
+        },
+        "Loans": {
+            "notStarted": ["bank.com/loans/mortgage1", "bank.com/loans/mortgage2", "bank.com/loans/auto1", "bank.com/loans/auto2"],
+            "inProgress": ["bank.com/loans/mortgage3", "bank.com/loans/auto3", "bank.com/loans/personal1"],
+            "migrated": ["bank.com/loans/mortgage4", "bank.com/loans/auto4", "bank.com/loans/personal2"]
+        },
+        "Investments": {
+            "notStarted": ["bank.com/invest/stocks1", "bank.com/invest/stocks2", "bank.com/invest/bonds1", "bank.com/invest/bonds2"],
+            "inProgress": ["bank.com/invest/stocks3", "bank.com/invest/bonds3", "bank.com/invest/retirement1"],
+            "migrated": ["bank.com/invest/stocks4", "bank.com/invest/bonds4", "bank.com/invest/retirement2"]
+        },
+        "Support": {
+            "notStarted": ["bank.com/support/faq1", "bank.com/support/faq2", "bank.com/support/contact1", "bank.com/support/contact2"],
+            "inProgress": ["bank.com/support/faq3", "bank.com/support/contact3", "bank.com/support/help1"],
+            "migrated": ["bank.com/support/faq4", "bank.com/support/contact4", "bank.com/support/help2"]
+        },
+        "About Us": {
+            "notStarted": ["bank.com/about/team1", "bank.com/about/team2", "bank.com/about/history1", "bank.com/about/history2"],
+            "inProgress": ["bank.com/about/team3", "bank.com/about/history3", "bank.com/about/values1"],
+            "migrated": ["bank.com/about/team4", "bank.com/about/history4", "bank.com/about/values2"]
+        }
     },
     "Ban Team": {
-        "notStarted": ["example.com/ban/page1", "example.com/ban/page2",  "example.com/ban/page1000"],
-        "inProgress": [],
-        "migrated": []
+        "Personal Banking": {
+            "notStarted": ["bank.com/personal/ban/checking1", "bank.com/personal/ban/checking2", "bank.com/personal/ban/savings1", "bank.com/personal/ban/savings2"],
+            "inProgress": ["bank.com/personal/ban/checking3", "bank.com/personal/ban/savings3", "bank.com/personal/ban/cards1"],
+            "migrated": ["bank.com/personal/ban/checking4", "bank.com/personal/ban/savings4", "bank.com/personal/ban/cards2"]
+        },
+        "Business Banking": {
+            "notStarted": ["bank.com/business/ban/accounts1", "bank.com/business/ban/accounts2", "bank.com/business/ban/credit1", "bank.com/business/ban/credit2"],
+            "inProgress": ["bank.com/business/ban/accounts3", "bank.com/business/ban/credit3", "bank.com/business/ban/loans1"],
+            "migrated": ["bank.com/business/ban/accounts4", "bank.com/business/ban/credit4", "bank.com/business/ban/loans2"]
+        },
+        "Loans": {
+            "notStarted": ["bank.com/loans/ban/mortgage1", "bank.com/loans/ban/mortgage2", "bank.com/loans/ban/auto1", "bank.com/loans/ban/auto2"],
+            "inProgress": ["bank.com/loans/ban/mortgage3", "bank.com/loans/ban/auto3", "bank.com/loans/ban/personal1"],
+            "migrated": ["bank.com/loans/ban/mortgage4", "bank.com/loans/ban/auto4", "bank.com/loans/ban/personal2"]
+        },
+        "Investments": {
+            "notStarted": ["bank.com/invest/ban/stocks1", "bank.com/invest/ban/stocks2", "bank.com/invest/ban/bonds1", "bank.com/invest/ban/bonds2"],
+            "inProgress": ["bank.com/invest/ban/stocks3", "bank.com/invest/ban/bonds3", "bank.com/invest/ban/retirement1"],
+            "migrated": ["bank.com/invest/ban/stocks4", "bank.com/invest/ban/bonds4", "bank.com/invest/ban/retirement2"]
+        },
+        "Support": {
+            "notStarted": ["bank.com/support/ban/faq1", "bank.com/support/ban/faq2", "bank.com/support/ban/contact1", "bank.com/support/ban/contact2"],
+            "inProgress": ["bank.com/support/ban/faq3", "bank.com/support/ban/contact3", "bank.com/support/ban/help1"],
+            "migrated": ["bank.com/support/ban/faq4", "bank.com/support/ban/contact4", "bank.com/support/ban/help2"]
+        },
+        "About Us": {
+            "notStarted": ["bank.com/about/ban/team1", "bank.com/about/ban/team2", "bank.com/about/ban/history1", "bank.com/about/ban/history2"],
+            "inProgress": ["bank.com/about/ban/team3", "bank.com/about/ban/history3", "bank.com/about/ban/values1"],
+            "migrated": ["bank.com/about/ban/team4", "bank.com/about/ban/history4", "bank.com/about/ban/values2"]
+        }
     },
     "Bor Team": {
-        "notStarted": ["example.com/bor/page1", "example.com/bor/page2",  "example.com/bor/page1000"],
-        "inProgress": [],
-        "migrated": []
+        "Personal Banking": {
+            "notStarted": ["bank.com/personal/bor/checking1", "bank.com/personal/bor/checking2", "bank.com/personal/bor/savings1", "bank.com/personal/bor/savings2"],
+            "inProgress": ["bank.com/personal/bor/checking3", "bank.com/personal/bor/savings3", "bank.com/personal/bor/cards1"],
+            "migrated": ["bank.com/personal/bor/checking4", "bank.com/personal/bor/savings4", "bank.com/personal/bor/cards2"]
+        },
+        "Business Banking": {
+            "notStarted": ["bank.com/business/bor/accounts1", "bank.com/business/bor/accounts2", "bank.com/business/bor/credit1", "bank.com/business/bor/credit2"],
+            "inProgress": ["bank.com/business/bor/accounts3", "bank.com/business/bor/credit3", "bank.com/business/bor/loans1"],
+            "migrated": ["bank.com/business/bor/accounts4", "bank.com/business/bor/credit4", "bank.com/business/bor/loans2"]
+        },
+        "Loans": {
+            "notStarted": ["bank.com/loans/bor/mortgage1", "bank.com/loans/bor/mortgage2", "bank.com/loans/bor/auto1", "bank.com/loans/bor/auto2"],
+            "inProgress": ["bank.com/loans/bor/mortgage3", "bank.com/loans/bor/auto3", "bank.com/loans/bor/personal1"],
+            "migrated": ["bank.com/loans/bor/mortgage4", "bank.com/loans/bor/auto4", "bank.com/loans/bor/personal2"]
+        },
+        "Investments": {
+            "notStarted": ["bank.com/invest/bor/stocks1", "bank.com/invest/bor/stocks2", "bank.com/invest/bor/bonds1", "bank.com/invest/bor/bonds2"],
+            "inProgress": ["bank.com/invest/bor/stocks3", "bank.com/invest/bor/bonds3", "bank.com/invest/bor/retirement1"],
+            "migrated": ["bank.com/invest/bor/stocks4", "bank.com/invest/bor/bonds4", "bank.com/invest/bor/retirement2"]
+        },
+        "Support": {
+            "notStarted": ["bank.com/support/bor/faq1", "bank.com/support/bor/faq2", "bank.com/support/bor/contact1", "bank.com/support/bor/contact2"],
+            "inProgress": ["bank.com/support/bor/faq3", "bank.com/support/bor/contact3", "bank.com/support/bor/help1"],
+            "migrated": ["bank.com/support/bor/faq4", "bank.com/support/bor/contact4", "bank.com/support/bor/help2"]
+        },
+        "About Us": {
+            "notStarted": ["bank.com/about/bor/team1", "bank.com/about/bor/team2", "bank.com/about/bor/history1", "bank.com/about/bor/history2"],
+            "inProgress": ["bank.com/about/bor/team3", "bank.com/about/bor/history3", "bank.com/about/bor/values1"],
+            "migrated": ["bank.com/about/bor/team4", "bank.com/about/bor/history4", "bank.com/about/bor/values2"]
+        }
     },
     "Inv Team": {
-        "notStarted": ["example.com/inv/page1", "example.com/inv/page2",  "example.com/inv/page1000"],
-        "inProgress": [],
-        "migrated": []
+        "Personal Banking": {
+            "notStarted": ["bank.com/personal/inv/checking1", "bank.com/personal/inv/checking2", "bank.com/personal/inv/savings1", "bank.com/personal/inv/savings2"],
+            "inProgress": ["bank.com/personal/inv/checking3", "bank.com/personal/inv/savings3", "bank.com/personal/inv/cards1"],
+            "migrated": ["bank.com/personal/inv/checking4", "bank.com/personal/inv/savings4", "bank.com/personal/inv/cards2"]
+        },
+        "Business Banking": {
+            "notStarted": ["bank.com/business/inv/accounts1", "bank.com/business/inv/accounts2", "bank.com/business/inv/credit1", "bank.com/business/inv/credit2"],
+            "inProgress": ["bank.com/business/inv/accounts3", "bank.com/business/inv/credit3", "bank.com/business/inv/loans1"],
+            "migrated": ["bank.com/business/inv/accounts4", "bank.com/business/inv/credit4", "bank.com/business/inv/loans2"]
+        },
+        "Loans": {
+            "notStarted": ["bank.com/loans/inv/mortgage1", "bank.com/loans/inv/mortgage2", "bank.com/loans/inv/auto1", "bank.com/loans/inv/auto2"],
+            "inProgress": ["bank.com/loans/inv/mortgage3", "bank.com/loans/inv/auto3", "bank.com/loans/inv/personal1"],
+            "migrated": ["bank.com/loans/inv/mortgage4", "bank.com/loans/inv/auto4", "bank.com/loans/inv/personal2"]
+        },
+        "Investments": {
+            "notStarted": ["bank.com/invest/inv/stocks1", "bank.com/invest/inv/stocks2", "bank.com/invest/inv/bonds1", "bank.com/invest/inv/bonds2"],
+            "inProgress": ["bank.com/invest/inv/stocks3", "bank.com/invest/inv/bonds3", "bank.com/invest/inv/retirement1"],
+            "migrated": ["bank.com/invest/inv/stocks4", "bank.com/invest/inv/bonds4", "bank.com/invest/inv/retirement2"]
+        },
+        "Support": {
+            "notStarted": ["bank.com/support/inv/faq1", "bank.com/support/inv/faq2", "bank.com/support/inv/contact1", "bank.com/support/inv/contact2"],
+            "inProgress": ["bank.com/support/inv/faq3", "bank.com/support/inv/contact3", "bank.com/support/inv/help1"],
+            "migrated": ["bank.com/support/inv/faq4", "bank.com/support/inv/contact4", "bank.com/support/inv/help2"]
+        },
+        "About Us": {
+            "notStarted": ["bank.com/about/inv/team1", "bank.com/about/inv/team2", "bank.com/about/inv/history1", "bank.com/about/inv/history2"],
+            "inProgress": ["bank.com/about/inv/team3", "bank.com/about/inv/history3", "bank.com/about/inv/values1"],
+            "migrated": ["bank.com/about/inv/team4", "bank.com/about/inv/history4", "bank.com/about/inv/values2"]
+        }
     },
     "BB Team": {
-        "notStarted": ["example.com/bb/page1", "example.com/bb/page2",  "example.com/bb/page1000"],
-        "inProgress": [],
-        "migrated": []
+        "Personal Banking": {
+            "notStarted": ["bank.com/personal/bb/checking1", "bank.com/personal/bb/checking2", "bank.com/personal/bb/savings1", "bank.com/personal/bb/savings2"],
+            "inProgress": ["bank.com/personal/bb/checking3", "bank.com/personal/bb/savings3", "bank.com/personal/bb/cards1"],
+            "migrated": ["bank.com/personal/bb/checking4", "bank.com/personal/bb/savings4", "bank.com/personal/bb/cards2"]
+        },
+        "Business Banking": {
+            "notStarted": ["bank.com/business/bb/accounts1", "bank.com/business/bb/accounts2", "bank.com/business/bb/credit1", "bank.com/business/bb/credit2"],
+            "inProgress": ["bank.com/business/bb/accounts3", "bank.com/business/bb/credit3", "bank.com/business/bb/loans1"],
+            "migrated": ["bank.com/business/bb/accounts4", "bank.com/business/bb/credit4", "bank.com/business/bb/loans2"]
+        },
+        "Loans": {
+            "notStarted": ["bank.com/loans/bb/mortgage1", "bank.com/loans/bb/mortgage2", "bank.com/loans/bb/auto1", "bank.com/loans/bb/auto2"],
+            "inProgress": ["bank.com/loans/bb/mortgage3", "bank.com/loans/bb/auto3", "bank.com/loans/bb/personal1"],
+            "migrated": ["bank.com/loans/bb/mortgage4", "bank.com/loans/bb/auto4", "bank.com/loans/bb/personal2"]
+        },
+        "Investments": {
+            "notStarted": ["bank.com/invest/bb/stocks1", "bank.com/invest/bb/stocks2", "bank.com/invest/bb/bonds1", "bank.com/invest/bb/bonds2"],
+            "inProgress": ["bank.com/invest/bb/stocks3", "bank.com/invest/bb/bonds3", "bank.com/invest/bb/retirement1"],
+            "migrated": ["bank.com/invest/bb/stocks4", "bank.com/invest/bb/bonds4", "bank.com/invest/bb/retirement2"]
+        },
+        "Support": {
+            "notStarted": ["bank.com/support/bb/faq1", "bank.com/support/bb/faq2", "bank.com/support/bb/contact1", "bank.com/support/bb/contact2"],
+            "inProgress": ["bank.com/support/bb/faq3", "bank.com/support/bb/contact3", "bank.com/support/bb/help1"],
+            "migrated": ["bank.com/support/bb/faq4", "bank.com/support/bb/contact4", "bank.com/support/bb/help2"]
+        },
+        "About Us": {
+            "notStarted": ["bank.com/about/bb/team1", "bank.com/about/bb/team2", "bank.com/about/bb/history1", "bank.com/about/bb/history2"],
+            "inProgress": ["bank.com/about/bb/team3", "bank.com/about/bb/history3", "bank.com/about/bb/values1"],
+            "migrated": ["bank.com/about/bb/team4", "bank.com/about/bb/history4", "bank.com/about/bb/values2"]
+        }
     }
 }
